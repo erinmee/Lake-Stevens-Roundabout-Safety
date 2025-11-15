@@ -1,0 +1,12 @@
+name: roundabout-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - polars
+  - pip:
+      - beautifulsoup4
+      - selenium
+      - requests
+      - webdriver-manager
