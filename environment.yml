@@ -5,8 +5,16 @@ channels:
 dependencies:
   - pip
   - polars
+  - pandas
+  - matplotlib
+  - pyarrow
+  - numpy
   - pip:
       - beautifulsoup4
       - selenium
       - requests
       - webdriver-manager
+      - lxml
+      - statsmodels
+      - seaborn
+      - mediapy
